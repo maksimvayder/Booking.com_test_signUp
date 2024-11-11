@@ -23,4 +23,4 @@ This repository contains tests for the Booking App using Cypress.
 1. Run Test 'npx cypress open'
 ## Run Test for opening in concole
 1. Run Test 'npm run test'
-# -Booking.com_test_signUp
+
