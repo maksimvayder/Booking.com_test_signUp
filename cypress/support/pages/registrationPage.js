@@ -13,11 +13,11 @@ class RegistrationPage {
   }
 
   clickContinueButton() {
-      cy.contains("Continue with email").click();
+      cy.get('.nw-signin [type="submit"]').click();
   }
 
   verifyEmailErrorMessage() {
-      cy.contains("Make sure the email address you entered is correct.").should("be.visible");
+    cy.get('#username-note').should("be.visible");
   }
 }
 
